@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "paths": {
+            "*": ["node_modules/*"],
+            "@/components/*": ["src/components/*"],
+            "@/constants/*": ["src/constants/*"],
+            "@/types/*": ["src/@types/*"],
+            "@/utils/*": ["src/utils/*"],
+            "@/prisma/*": ["src/prisma/*"],
+            "@/databases/*": ["src/databases/*"],
+            "@/helpers/*": ["src/helpers/*"],
+            "@/styles/*": ["src/styles/*"]
+        }
+    },
+    "include": ["src/**/*"]
+}
