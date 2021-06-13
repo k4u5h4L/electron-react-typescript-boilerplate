@@ -1,8 +1,8 @@
 {
-    "name": "type-reactron-boilerplate",
-    "productName": "type-reactron-boilerplate",
+    "name": "electron-calculator",
+    "productName": "electron-calculator",
     "version": "1.0.0",
-    "description": "Electron React TypeScript boilerplate",
+    "description": "Electron React TypeScript calculator",
     "main": ".webpack/main",
     "scripts": {
         "start": "electron-forge start",
